@@ -13,6 +13,7 @@
 		0E0BCD3E228DA6DB00546958 /* MyWardrobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BCD3C228DA6DB00546958 /* MyWardrobe.xcdatamodeld */; };
 		0E0BCD40228DA6DC00546958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BCD3F228DA6DC00546958 /* Assets.xcassets */; };
 		0E0BCD43228DA6DC00546958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BCD41228DA6DC00546958 /* LaunchScreen.storyboard */; };
+		0E53AF9D229BF71D00936E41 /* MyCloakRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53AF9C229BF71D00936E41 /* MyCloakRoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E0BCD3F228DA6DC00546958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0BCD42228DA6DC00546958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0BCD44228DA6DC00546958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E53AF9C229BF71D00936E41 /* MyCloakRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloakRoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E0BCD41228DA6DC00546958 /* LaunchScreen.storyboard */,
 				0E0BCD44228DA6DC00546958 /* Info.plist */,
 				0E0BCD3C228DA6DB00546958 /* MyWardrobe.xcdatamodeld */,
+				0E53AF9C229BF71D00936E41 /* MyCloakRoomViewController.swift */,
 			);
 			path = MyWardrobe;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				0E0BCD3E228DA6DB00546958 /* MyWardrobe.xcdatamodeld in Sources */,
 				0E0BCD38228DA6DB00546958 /* ViewController.swift in Sources */,
+				0E53AF9D229BF71D00936E41 /* MyCloakRoomViewController.swift in Sources */,
 				0E0BCD36228DA6DB00546958 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
