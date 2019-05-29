@@ -13,6 +13,11 @@
 		0E0BCD3E228DA6DB00546958 /* MyWardrobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BCD3C228DA6DB00546958 /* MyWardrobe.xcdatamodeld */; };
 		0E0BCD40228DA6DC00546958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BCD3F228DA6DC00546958 /* Assets.xcassets */; };
 		0E0BCD43228DA6DC00546958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BCD41228DA6DC00546958 /* LaunchScreen.storyboard */; };
+		0E202070229E70D0002152C3 /* ComponentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20206A229E70D0002152C3 /* ComponentTabView.swift */; };
+		0E202071229E70D0002152C3 /* UpperWearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20206B229E70D0002152C3 /* UpperWearView.swift */; };
+		0E202072229E70D0002152C3 /* UnderWearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20206C229E70D0002152C3 /* UnderWearView.swift */; };
+		0E202073229E70D0002152C3 /* HatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20206D229E70D0002152C3 /* HatView.swift */; };
+		0E202074229E70D0002152C3 /* ShoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20206E229E70D0002152C3 /* ShoesView.swift */; };
 		0E53AF9D229BF71D00936E41 /* MyCloakRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53AF9C229BF71D00936E41 /* MyCloakRoomViewController.swift */; };
 		0E53AF9F229C059800936E41 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53AF9E229C059800936E41 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +31,11 @@
 		0E0BCD3F228DA6DC00546958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0BCD42228DA6DC00546958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0BCD44228DA6DC00546958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E20206A229E70D0002152C3 /* ComponentTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentTabView.swift; sourceTree = "<group>"; };
+		0E20206B229E70D0002152C3 /* UpperWearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpperWearView.swift; sourceTree = "<group>"; };
+		0E20206C229E70D0002152C3 /* UnderWearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderWearView.swift; sourceTree = "<group>"; };
+		0E20206D229E70D0002152C3 /* HatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HatView.swift; sourceTree = "<group>"; };
+		0E20206E229E70D0002152C3 /* ShoesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoesView.swift; sourceTree = "<group>"; };
 		0E53AF9C229BF71D00936E41 /* MyCloakRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloakRoomViewController.swift; sourceTree = "<group>"; };
 		0E53AF9E229C059800936E41 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +70,7 @@
 		0E0BCD34228DA6DB00546958 /* MyWardrobe */ = {
 			isa = PBXGroup;
 			children = (
+				0E202069229E70D0002152C3 /* ComponentViewController */,
 				0E0BCD35228DA6DB00546958 /* AppDelegate.swift */,
 				0E0BCD37228DA6DB00546958 /* ViewController.swift */,
 				0E0BCD39228DA6DB00546958 /* Main.storyboard */,
@@ -71,6 +82,18 @@
 				0E53AF9E229C059800936E41 /* UploadViewController.swift */,
 			);
 			path = MyWardrobe;
+			sourceTree = "<group>";
+		};
+		0E202069229E70D0002152C3 /* ComponentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E20206A229E70D0002152C3 /* ComponentTabView.swift */,
+				0E20206B229E70D0002152C3 /* UpperWearView.swift */,
+				0E20206C229E70D0002152C3 /* UnderWearView.swift */,
+				0E20206D229E70D0002152C3 /* HatView.swift */,
+				0E20206E229E70D0002152C3 /* ShoesView.swift */,
+			);
+			path = ComponentViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E202074229E70D0002152C3 /* ShoesView.swift in Sources */,
+				0E202070229E70D0002152C3 /* ComponentTabView.swift in Sources */,
 				0E0BCD3E228DA6DB00546958 /* MyWardrobe.xcdatamodeld in Sources */,
 				0E53AF9F229C059800936E41 /* UploadViewController.swift in Sources */,
+				0E202071229E70D0002152C3 /* UpperWearView.swift in Sources */,
 				0E0BCD38228DA6DB00546958 /* ViewController.swift in Sources */,
+				0E202073229E70D0002152C3 /* HatView.swift in Sources */,
 				0E53AF9D229BF71D00936E41 /* MyCloakRoomViewController.swift in Sources */,
+				0E202072229E70D0002152C3 /* UnderWearView.swift in Sources */,
 				0E0BCD36228DA6DB00546958 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
