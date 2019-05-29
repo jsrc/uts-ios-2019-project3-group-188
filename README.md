@@ -1,3 +1,15 @@
-# IOS - Assignment 3
+# IOS - Assignment 3 Group 188
 
-Populate this README.md file with relevant information about your project.
+Project
+---
+- My Wardrobe 
+
+Members
+---
+- Yifei Shen
+- 
+- 
+- 
+
+Architecture
+---
