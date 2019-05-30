@@ -6,10 +6,10 @@ Project
 
 Members
 ---
-- Yifei Shen
-- 
-- 
-- 
+- Yifei Shen, UI design and Camera function.
+- Chen Jiang, UI design and 'Matching Clothes'
+- Bunlong Pheng, UI design and code viewed.
+- Dong Wang, UI design and code viewed.
 
 Architecture
 ---
