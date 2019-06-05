@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="sun-Jp-784"/>
@@ -121,7 +121,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="W8a-Yl-kl1"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Cloak Room" id="fve-zu-IaM"/>
@@ -166,7 +166,7 @@
                                 </segments>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6lv-nN-McK"/>
                     </view>
                     <navigationItem key="navigationItem" title="Upload" id="buI-lz-B5W"/>
@@ -252,7 +252,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="MkI-aN-W3w"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Wardrobe" id="4HE-2n-mun"/>
@@ -539,11 +539,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="25-512" width="512" height="512"/>
-        <image name="Mans_Cap-512" width="512" height="512"/>
-        <image name="T-shirt-512" width="512" height="512"/>
+        <image name="25-512" width="200" height="200"/>
+        <image name="Mans_Cap-512" width="200" height="200"/>
+        <image name="T-shirt-512" width="200" height="200"/>
         <image name="download" width="397" height="127"/>
-        <image name="pants" width="225" height="225"/>
+        <image name="pants" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="QjH-eD-HBX"/>
