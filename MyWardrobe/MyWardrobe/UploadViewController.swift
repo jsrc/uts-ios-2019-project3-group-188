@@ -2,7 +2,7 @@
 //  UploadViewController.swift
 //  MyWardrobe
 //
-//  Created by 江上 on 2019/5/27.
+//  Created by Chen Jiang on 2019/5/27.
 //  Copyright © 2019 UTS. All rights reserved.
 //
 
@@ -13,7 +13,6 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         createFolder(name: "UpperWear")
         createFolder(name: "Pants")
         createFolder(name: "Shooes")
@@ -23,28 +22,28 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var chooseImageView: UIImageView!
     @IBOutlet weak var type: UISegmentedControl!
     
-    //选取相册
+    //when click choose from the album
     @IBAction func chooseFromAlbum(_ sender: Any) {
-        //判断设置是否支持图片库
+        //to make sure that support choose from album
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
-            //初始化图片控制器
+            //init picker
             let picker = UIImagePickerController()
-            //设置代理
+            //setting delegate
             picker.delegate = self
-            //指定图片控制器类型
+            //appoint the type
             picker.sourceType = .photoLibrary
-            //弹出控制器，显示界面
+            //show the controller
             self.present(picker, animated: true, completion: {
                 () -> Void in
             })
         }else{
-            print("读取相册错误")
+            print("fail to shwo the album")
         }
     }
     
-    //选择图片成功后代理
+    //the delegate that after choose image
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        //获取选择的原图
+        //open the original image
         let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
         chooseImageView.image = image
         
@@ -63,7 +62,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
             filePath = filePath + "Hats"
             break
         }
-        //获取当前时间
+        //get current time as file name
         let now = Date()
         let timeInterval:TimeInterval = now.timeIntervalSince1970
         let timeStamp = String(timeInterval)
@@ -72,10 +71,11 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
         let imageData:Data = image.pngData()!
         try? imageData.write(to: URL(fileURLWithPath: filePath))
         
-        //图片控制器退出
+        //quit the picker
         picker.dismiss(animated: true, completion:nil)
     }
     
+    //create floder to store the image
     func createFolder(name:String) {
         let baseUrl = URL(fileURLWithPath: NSHomeDirectory() + "/Documents/")
         let manager = FileManager.default
